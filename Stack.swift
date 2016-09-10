@@ -76,4 +76,20 @@ extension Stack: SequenceType{
   }
 }
 
+extension Stack: CollectionType{
+  typealias Index = Int
+  
+  var startIndex: Int{
+    return 0
+  }
+  
+  var endIndex: Int{
+    return count
+  }
+  
+  subscript(i: Int) -> T{
+    return stack[i]
+  }
+  
+}
 
