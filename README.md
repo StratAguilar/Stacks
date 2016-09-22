@@ -1,3 +1,3 @@
 # Stack
-### Swift 3.0
+### Swift 2.2
 This file contains implemenation for the Stack datastructure.
